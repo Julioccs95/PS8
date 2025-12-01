@@ -10,5 +10,6 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Address, Address>();
+        CreateMap<Course, Course>();
     }
 }
